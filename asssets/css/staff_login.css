@@ -1,0 +1,132 @@
+*
+{
+    box-sizing: border-box;
+}
+#top
+{
+    float: left;
+    width: 100%;
+    height: 100px;
+    /* background-color: wheat; */
+}
+#content
+{
+    width: 100%;
+    /* background-color: yellow; */
+}
+.side
+{
+    float: left;
+    width: 20%;
+    /* background-color: yellowgreen; */
+    height: 400px;
+
+}
+#heading
+{
+    
+    /* float: left; */
+    font-family: poppins;
+    padding-top: 20%;
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 5px;
+}
+#mid
+{
+    float: left;
+    width: 60%;
+    /* background-color: violet; */
+    height: 400px;
+}
+.mid-sub
+{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.3);
+    
+}
+#login_image
+{
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 90%;
+}
+#bottom
+{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* background-color: wheat; */
+}
+table
+{
+    width: 100%;
+}
+td
+{
+    width: 40%;
+    padding: 2%;
+}
+.labels
+{
+    text-align: left;
+    font-family: 'Franklin Gothic';
+}
+.inputs
+{
+    border: 2px solid #adadad;
+    border-radius: 10px;
+    height: 25px;
+    width: 390px;
+    font-family: 'Franklin Gothic';
+    outline: none;
+    
+}
+.inputs:hover
+{
+    border: 2px solid #000000;
+    transition: 1s;
+}
+#submit
+{
+    border: solid rgb(182, 182, 182);
+    border-width: 1px;
+    border-radius: 20px;
+    width: 390px;
+    height: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: poppins;
+    transition: 1s;
+    
+}
+#submit:hover
+{
+    
+    outline: none;
+    background-color: white;
+    box-shadow:0px 0px 6px 1px #a0a0a0d0;
+    color: blue;
+    cursor: pointer;
+}
+td a
+{
+    color: black;
+    text-decoration: none;
+}
+td a:visited
+{
+    color: black;
+}
+td a:hover
+{
+    text-decoration: underline;
+}
+body
+{
+    margin: 0%;
+    background-image: linear-gradient(to right, #7777ff, #ffffff 50%, #7777ff);
+
+}

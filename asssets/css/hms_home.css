@@ -1,0 +1,61 @@
+*
+{
+    box-sizing: border-box;
+}
+.hms-banner
+{
+    width: 100%;
+    float: left;
+    height: 100px;
+    color: #212135;
+    background-image: linear-gradient(to right, #bdbdf1, #ffffff 50%, #bdbdf1);
+
+}
+.hms-heading
+{
+    font-family: poppins;
+    text-align: center;
+}
+.schedule
+{
+    font-family: poppins;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.staff-top
+{
+    /* background: rgba(255,255,255,0.4); */
+    height: 500px;
+}
+.staff-top a
+{
+    font-family: arial;
+    margin-left: 50px;
+}
+.scroll
+{
+    overflow-y: scroll;
+    float: left;
+    height: 350px;
+}
+td
+{
+    width: 180px;
+}
+table, td
+{
+    margin-left: 50px;
+    font-family: poppins;
+    padding: 10px;
+    border: 1px solid #969696;
+    border-collapse: collapse;
+}
+tr:hover
+{
+    background-color: #ffffff80;
+
+}
+body
+{
+    margin: 0%;
+}
